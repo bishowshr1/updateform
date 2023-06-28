@@ -27,6 +27,8 @@ const InfoForm = () => {
     gender: Yup.string().required(),
     msg: Yup.string().required(),
 
+    image: Yup.mixed().required('Required').test('FileType', 'invalid', (val) => val && ['image/png', 'image/jpg', 'image/png'].includes(val.type))
+
 
   });
 

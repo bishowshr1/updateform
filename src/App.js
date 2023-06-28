@@ -9,6 +9,8 @@ import DetailPage from './pages/DetailPage';
 import InfoForm from './components/InfoForm';
 import Update from './components/Update';
 
+i
+
 // import Store from './components/Store';
 // import InfoSlice from './components/InfoSlice';
 // import Slice from './components/Slice';
@@ -30,7 +32,7 @@ const App = () => {
           <Route path='InfoSlice' element={<InfoSlice />} />
           <Route path='Slice' element={<Slice />} /> */}
 
-          <Route path='update/:id' element={<Update />} />
+
 
 
 
